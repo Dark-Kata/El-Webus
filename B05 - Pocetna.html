@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pocetna</title>
+    <script src="../JS i CSS/JS.js"></script>
+    <link href="../JS i CSS/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <center>
+        <h1 id="Naslov1">ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+    </center>
+
+    <table id="nava">
+        <tr>
+            <th class="Navi" id="Selectovano"><a href="../Strane/Pocetna.html">Почетна</a></th>
+            <th class="Navi"><a href="../Strane/O Autoru.html">О Аутору</a></th>
+            <th class="Navi"><a href="../Strane/Uputstvo.html">Упутство</a></th>
+        </tr>
+    </table>
+
+    <h2 id="Naslov2">Zvuci instrumenta</h2>
+
+    <h1 id="vertikalal">Muzicka</h1>
+    <h1 id="vertikala2">kultura</h1>
+
+    <table id="tabla">
+        <tr>
+            <th onclick="Opis()">Naziv instrumentra</th>
+            <th>Slika instrumenta</th>
+            <th>Zvuk instrumenta</th>
+        </tr>
+        <tr>
+            <td>Električna gitara</td>
+            <td><a href="https://sr.wikipedia.org/sr-el/Gitara"><img src="/slike/Gitara.jpg"/></a></td>
+            <td><img src="/slike/zvucnik.jpg" width="50" height="50" onmouseover="PlaySound('Gitara')" onmouseout="StopSound('Gitara')" /><br><a onclick="SadrzajTeksta('0')"><u>Saznaj vise</u></a></td>
+        </tr>
+        <tr>
+            <td>Violina</td>
+            <td><a href="https://sr.wikipedia.org/sr-el/violina"><img src="/slike/Violina.jpg" /></a></td>
+            <td><img src="/slike/zvucnik.jpg" width="50" height="50" onmouseover="PlaySound('Violina')" onmouseout="StopSound('Violina')" /><br><a onclick="SadrzajTeksta('1')"><u>Saznaj vise</u></a></td>
+        </tr>
+        <tr>
+            <td>Klavir</td>
+            <td><a href="https://sr.wikipedia.org/sr-el/klavir"><img src="/slike/Piano.jpg" /></a></td>
+            <td><img src="/slike/zvucnik.jpg" width="50" height="50" onmouseover="PlaySound('Klavir')" onmouseout="StopSound('klavir')" /><br><a onclick="SadrzajTeksta('2')"><u>Saznaj vise</u></a></td>
+        </tr>
+        <tr>
+            <td>Bubnjevi</td>
+            <td><a href="https://sr.wikipedia.org/sr-el/bubnjevi"><img src="/slike/Bubnjevi.jpg" /></a></td>
+            <td><img src="/slike/zvucnik.jpg" width="50" height="50" onmouseover="PlaySound('Bubnjevi')" onmouseout="StopSound('Bubnjevi')" /><br><a onclick="SadrzajTeksta('3')"><u>Saznaj vise</u></a></td>
+        </tr>
+        <tr>
+            <td>Flauta</td>
+            <td><a href="https://sr.wikipedia.org/sr-el/flauta"><img src="/slike/Flauta.jpg" /></a></td>
+            <td><img src="/slike/zvucnik.jpg" width="50" height="50" onmouseover="PlaySound('Flauta')" onmouseout="StopSound('Flauta')" /><br><a onclick="SadrzajTeksta('4')"><u>Saznaj vise</u></a></td>
+        </tr>
+        <tr>
+            <td>Saksofon</td>
+            <td><a href="https://sr.wikipedia.org/sr-el/saksofon"><img src="/slike/Saksofon.jpg" /></a></td>
+            <td><img src="/slike/zvucnik.jpg" width="50" height="50" onmouseover="PlaySound('Saksofon')" onmouseout="StopSound('Saksofon')" /><br><a onclick="SadrzajTeksta('5')"><u>Saznaj vise</u></a></td>
+        </tr>
+    </table>
+
+    <center>
+        <footer>
+            <p style="color: #FEFA98; font-size: 15px">Copyright &copy; Основна Школа "Соња Марковић"</p>
+        </footer>
+    </center>
+
+    <audio id="Gitara" src="../zvuk/gitara.mp3"></audio>
+    <audio id="Violina" src="../zvuk/violina.mp3"></audio>
+    <audio id="Klavir" src="../zvuk/piano.mp3"></audio>
+    <audio id="Bubnjevi" src="../zvuk/bubnjevi.mp3"></audio>
+    <audio id="Flauta" src="../zvuk/flauta.mp3"></audio>
+    <audio id="Saksofon" src="../zvuk/saksofon.mp3"></audio>
+</body>
+</html>

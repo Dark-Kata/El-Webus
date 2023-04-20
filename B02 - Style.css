@@ -1,0 +1,73 @@
+﻿body {
+    background-image: url('../Slike/pozadina.jpg');
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #E1F0AA;
+    text-shadow: 2px 2px 4px #3C1826;
+}
+
+table {
+    position: relative;
+    left: 37%;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    background-color: #E1F0AA;
+}
+
+.Navi {
+    border-color: #3C1826;
+    border-left: solid;
+}
+
+#Selectovano {
+    background-color: #3C1826;
+    /*color: #E1F0AA;*/
+}
+
+#Selectovano a {
+    color: #E1F0AA;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 100;
+    color: #3C1826;
+}
+
+.Zivuljke {
+    margin-top: 50px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 1300px;
+}
+
+.Slike {
+    border: solid;
+    border-color: #E1F0AA;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.futer {
+    height: 50px;
+    text-align: center;
+    background-color: #3C1826;
+    color: #E1F0AA;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+}
+
+
+

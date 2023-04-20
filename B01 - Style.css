@@ -1,0 +1,72 @@
+﻿body {
+    background-color: #b4d9eb;
+    font-family: Arial;
+    color: white;
+}
+
+h1 {
+    color: #2b5480;
+}
+
+table {
+    background-color: #2b5480;
+    width: 100%;
+    height: 40px;
+    color: white;
+    position: absolute;
+    left: 0%;
+}
+
+#Selektovano {
+    background-color: #82b7d0;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+}
+
+.NaviLevo {
+    border-color: white;
+    text-align: center;
+    width: 100px;
+}
+
+#NaviKraj {
+    padding-left: 1000px;
+    width: 150px;
+    text-align: right;
+}
+
+#BigDiv {
+    width: 640px;
+    height: 640px;
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    background-color: white;
+}
+
+#TekstTu {
+    font-size: 20px;
+    font-family:'Courier New';
+    background-color: #2b5480;
+    height: 120px;
+    overflow-y: scroll;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#SlikeTu {
+    width: 640px;
+    height: 480px;
+}
+
+.MaleSlike {
+    width: 64px;
+    height: 40px;
+    float: left;
+}

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pocetna</title>
+    <link href="../JS i CSS/Style.css" rel="stylesheet" />
+    <script src="../JS i CSS/JS.js"></script>
+</head>
+<body>
+    <center>
+        <h1 id="Naslov1">ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+    </center>
+
+    <table>
+        <tr>
+            <th class="Navi" id="Selectovano"><a href="../Strane/Pocetna.html">Почетна</a></th>
+            <th class="Navi"><a href="../Strane/O Autoru.html">О Аутору</a></th>
+            <th class="Navi"><a href="../Strane/Uputstvo.html">Упутство</a></th>
+        </tr>
+    </table>
+
+        <h2 id="Naslov2">Србија и њени суседи</h2>
+
+    <h1 id="Uspravno">Географија</h1>  <br />
+
+    <img src="../Slike/karta.jpg" id="karta" />
+    <div id="albanija" onmouseover="PlaySound('albanija1')" onmouseout="StopSound('albanija1')" onclick="Opis(0)">
+        <img src="../Slike/albanskaZastava.jpg" class="zastava" />
+        <p>Албанија</p>
+    </div>
+    <div id="bosna" onmouseover="PlaySound('bosna1')" onmouseout="StopSound('bosna1')" onclick="Opis(1)">
+        <img src="../Slike/bosanskaZastava.jpg" class="zastava" />
+        <p>Босна</p>
+    </div>
+    <div id="bugari" onmouseover="PlaySound('bugari1')" onmouseout="StopSound('bugari1')" onclick="Opis(2)">
+        <img src="../Slike/bugarskaZastava.jpg" class="zastava" />
+        <p>Бугарска</p>
+    </div>
+    <div id="crna" onmouseover="PlaySound('crna1')" onmouseout="StopSound('crna1')" onclick="Opis(3)">
+        <img src="../Slike/crnogorskaZastava.jpg" class="zastava" />
+        <p>Црна Гора</p>
+    </div>
+    <div id="hrvat" onmouseover="PlaySound('hrvat1')" onmouseout="StopSound('hrvat1')" onclick="Opis(4)">
+        <img src="../Slike/hrvatskaZastava.jpg" class="zastava" />
+        <p>Хрватска</p>
+    </div>
+    <div id="madja" onmouseover="PlaySound('madja1')" onmouseout="StopSound('madja1')" onclick="Opis(5)">
+        <img src="../Slike/madjarskaZastava.jpg" class="zastava" />
+        <p>Мађарска</p>
+    </div>
+    <div id="maked" onmouseover="PlaySound('maked1')" onmouseout="StopSound('maked1')" onclick="Opis(6)">
+        <img src="../Slike/makedonskaZastava.jpg" class="zastava" />
+        <p>Македонија</p>
+    </div>
+    <div id="rumun" onmouseover="PlaySound('rumun1')" onmouseout="StopSound('rumun1')" onclick="Opis(7)">
+        <img src="../Slike/rumunskaZastava.jpg" class="zastava" />
+        <p>Румунија</p>
+    </div>
+    <div id="srbija" onmouseover="PlaySound('srbija1')" onmouseout="StopSound('srbija1')" onclick="Opis(8)">
+        <img src="../Slike/srpskaZastava.jpg" class="zastava" />
+        <p>Србија</p>
+    </div>
+
+    <center>
+        <footer>
+            <p style="color: #FEFA98; font-size: 15px">Copyright &copy; Основна Школа "Соња Марковић"</p>
+        </footer>
+    </center>
+
+    <audio id="albanija1" src="../Zvuk/Albania.mp3"></audio>
+    <audio id="bosna1" src="../Zvuk/BosniaHerzegovina.mp3"></audio>
+    <audio id="bugari1" src="../Zvuk/Bulgaria.mp3"></audio>
+    <audio id="crna1" src="../Zvuk/Montenegro.mp3"></audio>
+    <audio id="hrvat1" src="../Zvuk/Croatia.mp3"></audio>
+    <audio id="madja1" src="../Zvuk/Hungary.mp3"></audio>
+    <audio id="maked1" src="../Zvuk/Macedonia.mp3"></audio>
+    <audio id="rumun1" src="../Zvuk/Romania.mp3"></audio>
+    <audio id="srbija1" src="../Zvuk/Serbia.mp3"></audio>
+</body>
+</html>

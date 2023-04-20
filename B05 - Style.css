@@ -1,0 +1,132 @@
+﻿body {
+    background-color: #FEFA98;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+#Naslov1 {
+    color: #517A2E;
+}
+
+#nava {
+    background-color: #C3FEA9;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 8%;
+    height: 50px;
+    text-align: center;
+}
+
+.Navi {
+    display: inline-block;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+}
+
+#Selectovano {
+    background-color: #477F2D;
+}
+
+    #Selectovano a {
+        color: #FEFA98;
+    }
+
+a {
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    color: #517A2E;
+}
+
+    a:hover {
+        color: #6BBF44;
+    }
+
+#Naslov2 {
+    color: #517A2E;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 13%;
+    left: 43%;
+}
+
+#vertikalal {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-shadow: 2px 2px 15px #666666;
+    color: #517A2E;
+}
+
+#vertikala2 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-shadow: 2px 2px 15px #666666;
+    color: #517A2E;
+}
+
+p {
+    font-size: 10px;
+    color: #517A2E;
+}
+
+#tabla {
+    border: 5px outset #CDB79E;
+    background-color: #C3FEA9;
+    text-align: center;
+    padding: 20px;
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 23%;
+}
+
+    #tabla th {
+        background-color: #477F2D;
+        color: #FEFA98;
+        font-family: "Arial";
+        font-size: 20px;
+    }
+
+    #tabla td {
+        background-color: #C3FEA9;
+        color: black;
+        border: 2px solid #CDB79E;
+        font-family: "Arial";
+        font-size: 18px;
+        width: 300px;
+    }
+
+img {
+    width: 80px;
+    height: 50px;
+    position: relative;
+    top: -20%;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: #517A2E;
+    color: #FEFA98;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+}

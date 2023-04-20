@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pocetna</title>
+    <script src="../JS i CSS/JS.js"></script>
+    <link href="../JS i CSS/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <center>
+        <h1>Turisticka Agencija "Planinar"</h1>
+        <table>
+            <tr>
+                <th class="Navi" id="selectovano"><a href="../Strane/Pocetna.html">Pocetna</a></th>
+                <th class="Navi"><a href="../Strane/O autoru.html">O Autoru</a></th>
+                <th class="Navi"><a href="../Strane/Uputstvo.html">Uputstvo</a></th>
+            </tr>
+        </table>
+    </center>
+
+    <center>
+        <div>
+            <p id="ig">Izaberite grad</p>
+            <form>
+                <select id="box" onchange="PromeniGrad()">
+                    <option value="beograd">beograd</option>
+                    <option value="cacak">cacak</option>
+                    <option value="dimitrovgrad">dimitrovgrad</option>
+                    <option value="jagodina">jagodina</option>
+                    <option value="kladovo">kladovo</option>
+                    <option value="kopaonik">kopaonik</option>
+                    <option value="kragujevac">kragujevac</option>
+                    <option value="krusevac">krusevac</option>
+                    <option value="lebane">lebane</option>
+                    <option value="loznica">loznica</option>
+                </select>
+            </form>
+            <br />
+            <br />
+            <iframe id="prognoza"src="https://naslovi.net/vremenska-prognoza/beograd"></iframe>
+        </div>
+
+        <footer>
+            <p id="pf">&copy; Turisticka agencija "Planinar"</p>
+        </footer>
+    </center>
+
+</body>
+</html>
